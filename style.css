@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-part{
+    width: 70%;
+    background-image: url(./img/bg.png);
+    background-size:cover;
+    background-position: center;
+    flex: 1;
+}
+
+.image-part img{
+    height: 100%;
+}
+
+.login-part{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.riot-logo img{
+    width: 150px;
+    margin-bottom: 60px;
+}
+
+.login-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.input-login{
+    width: 75%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: #e8e6e6;
+    border: none;
+    font-size: 18px;
+    padding-left: 15px;
+    outline: none;
+    margin-bottom: 44px;
+}
+
+.input-login:first-child{
+    margin-bottom: 23px;
+}
+
+.label-input{
+    color: #716e6e;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.label-1{
+    position: absolute;
+    top: 7px;
+    left: 5vw;
+}
+
+.label-2{
+    position: absolute;
+    top: 123px;
+    left: 5vw;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    gap: 2.5vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 20%;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn img{
+    width: 20px;
+}
+
+.facebook{
+    background-color: #2051ff;
+}
+
+.google{
+    background-color: #8a0000;
+}
+
+.apple{
+    background-color: #000000;
+}
+
+.keep-connect{
+    display: flex;
+    width: 100%;
+    margin-left: 7vw;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10vh;
+}
+
+.keep-connect label{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.login-btn{
+    background-color: #ff002e36;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.active{
+    background-color: #ff002e;
+}
+
+.login-btn img{
+    width: 30px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.links a{
+    color: #a6a6a6;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}

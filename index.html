@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <main class="main">
+        <aside class="login-part">
+            <figure class="riot-logo">
+                <img src="./img/riot-logo.png" alt="logo da riot games">
+            </figure>
+            <h1 class="login-title">Fazer Login</h1>
+            <form action="" class="login-form">
+                <label class="label-input label-1" for="user">Usuario</label>
+                <input class="input-login" id="user" type="text">
+                <label class="label-input label-2" for="password">Senha</label>
+                <input class="input-login" type="password" name="password" id="password">
+            
+                <div class="buttons">
+                    <button class="btn facebook"><img src="./img/facebook-logo.png" alt="botão para logar com facebook"></button>
+                    <button class="btn google"><img src="./img/google-logo.png" alt="botão para logar com o google"></button>
+                    <button class="btn apple"><img src="./img/apple-logo.png" alt="botão para logar com a apple"></button>
+                </div>
+                <div class="keep-connect">
+                    <input type="checkbox" name="connect" id="connect">
+                    <label for="connect">Manter Conectado</label>
+                </div>
+
+                <button disabled class="login-btn"><img src="./img/seta-direita.png" alt="botão final de login"></button>
+            </form>
+            <div class="links">
+                <a href="#">Não consegue iniciar sessão?</a>
+                <a href="#">Criar conta</a>
+            </div>
+        </aside>
+        <figure class="image-part">
+            
+        </figure>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
